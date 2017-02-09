@@ -1,14 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MotorCarreteras.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioFX.cs">
     <Files>
-      <File FileName="Assets/Scripts/MotorCarreteras.cs" Line="29" Column="17" />
-      <File FileName="Assets/Scripts/MotorCarreteras_OLD.cs" Line="5" Column="33" />
+      <File FileName="Assets/Scripts/MotorCarreteras.cs" Line="101" Column="20" />
+      <File FileName="Assets/Scripts/Pieza.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Cronometro.cs" Line="15" Column="97" />
+      <File FileName="Assets/Scripts/Coche.cs" Line="6" Column="67" />
+      <File FileName="Assets/Scripts/CuentaAtras.cs" Line="41" Column="27" />
+      <File FileName="Assets/Scripts/ControladorCoche.cs" Line="30" Column="91" />
+      <File FileName="Assets/Scripts/AudioFX.cs" Line="13" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/jorge/Unity-workspace/FastFurious/Assets/Scripts/MotorCarreteras.cs" line="88" column="16" />
+      <Breakpoint file="/home/jorge/Unity-workspace/FastFurious/Assets/Scripts/MotorCarreteras.cs" line="192" column="16" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
