@@ -13,7 +13,7 @@ public class Cronometro : MonoBehaviour {
 	public float distancia;
 	public Text txtTiempo; //Le asignamos tiempo a txtTiempo desde el Inspector arrastrando
 	public Text txtDistancia;//Le asignamos distancia a txtDistancia desde el Inspector arrastrando
-	public Text txtDistanciFinal; //Distancia total recorrida cuando el juego termina. Asignarlo a mano desde el inspector
+	public Text txtDistanciaFinal; //Distancia total recorrida cuando el juego termina. Asignarlo a mano desde el inspector
 
 	// Use this for initialization
 	void Start () {
@@ -43,7 +43,7 @@ public class Cronometro : MonoBehaviour {
 			motorCarreterasScript.juegoTerminado = true;
 			//LLamamos a la función JuegoTerminadoEstados que está en el script MotorCarreteras.cs
 			motorCarreterasScript.JuegoTerminadoEstados();
-			txtDistanciFinal.text = ((int)distancia).ToString () + " mts";
+			txtDistanciaFinal.text = ((int)distancia).ToString () + " M";
 			txtTiempo.text = "00:00"; //Hacemos ésto para que no nos salga tiempos negativos al final del juego por haber chocado con buses
 		}
 	}

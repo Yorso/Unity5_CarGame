@@ -1,8 +1,0 @@
-<linker>
-	<assembly fullname="Assembly-CSharp">
-		<type fullname="Fundidos">
-			<method name="FadeOut"/>
-			<method name="FadeOut"/>
-		</type>
-	</assembly>
-</linker>

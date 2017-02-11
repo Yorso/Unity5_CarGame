@@ -16,7 +16,7 @@ public class Fundidos : MonoBehaviour {
 	}
 
 	public void FadeOut(int s){//s es el número de escena en el array escenas
-		fundido.CrossFadeAlpha(1,0.5f,false);
+		fundido.CrossFadeAlpha(1,0.5f,false);//Pasa de fondo transparente a fondo negro
 		StartCoroutine (CambioEscena(escenas[s]));
 	}
 
